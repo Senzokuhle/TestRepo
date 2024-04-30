@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Vodacom.Initallsettings</id>
+    <version>1.2.24-alpha.1</version>
+    <title>Vodacom.Initallsettings</title>
+    <authors>pocs</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Fetch your projects config.xlsx file from the 'Configs' storage bucket and initialize the assets.</description>
+    <releaseNotes>Test Version For Windows Based Projects (Not Windows Legacy)</releaseNotes>
+    <tags>Library VisualBasic VB UiPathStudioLibrary UiPathActivities</tags>
+    <dependencies>
+      <group targetFramework="net6.0-windows7.0">
+        <dependency id="UiPath.Excel.Activities" version="2.20.2" />
+        <dependency id="UiPath.System.Activities" version="23.4.4" />
+        <dependency id="UiPath.WebAPI.Activities" version="1.16.2" />
+        <dependency id="Vodacom.Initallsettings.Library.Runtime" version="1.2.24-alpha.1" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

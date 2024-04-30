@@ -1,0 +1,21 @@
+{
+  "payload": {
+    "summary": "Testing, unable to sign into Siebel C3D, tried signing in 3 times",
+    "timestamp": "04/09/2024 14:25:17",
+    "source": "RPA",
+    "severity": "error",
+    "component": "postgres",
+    "group": "prod",
+    "class": "deploy",
+    "custom_details": {
+      "ping time": "1500ms",
+      "load avg": 0.75,
+      "BotUser": "cbu02",
+      "MachineName": "QRPAH11ZATCWI",
+      "ProcessName": "CBU MigrationReversal Performer",
+      "OrchestratorFolder": "Consumer Business Unit Retentions"
+    }
+  },
+  "event_action": "trigger",
+  "routing_key": "R02A7392QEPLDG5H8UBA7TP0C1HR59MQ"
+}
